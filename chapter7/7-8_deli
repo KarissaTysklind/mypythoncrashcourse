@@ -1,0 +1,12 @@
+sandwhich_orders = ["BLT", "Ham & Cheese", "Tuna Mayo", "Chicken Salad"]
+finished_sandwhiches = []
+
+while sandwhich_orders:
+    for sandwhich in sandwhich_orders:
+        print(f"\nA {sandwhich} sandwhich has been added to your order.")
+        finished_sandwhiches.append(sandwhich)
+        sandwhich_orders.remove(sandwhich)
+
+print("\nThe following sandwhiches have been made:")
+for sandwhich in finished_sandwhiches:
+    print(f"\t{sandwhich}")
