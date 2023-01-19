@@ -1,0 +1,5 @@
+In Python you can read files
+In Python you can write files
+In Python you can search for patterns in files
+In Python you can extract lines
+In Python you can edit text
